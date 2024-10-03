@@ -5,5 +5,5 @@ module "m2" {
 }
 
 module "m22" {
-    source = "git@github.com:karlschriek/module-tests-2.git/module22"
+    source = "git@github.com:karlschriek/module-tests-2.git//module22"
 }
